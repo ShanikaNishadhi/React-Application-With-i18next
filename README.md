@@ -1,2 +1,2 @@
-# React-Application-With-i18n
+# React-Application-With-i18next
 Created with CodeSandbox
