@@ -18,13 +18,15 @@
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
+    "i18next-parser": "^3.5.0",
     "typescript": "3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "extract-translations": "i18next --fail-on-warnings"
   },
   "browserslist": [
     ">0.2%",
