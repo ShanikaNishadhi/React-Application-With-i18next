@@ -5,15 +5,16 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import moment from "momentsjs";
 
-import { TRANSLATIONS_ES } from "./es/translations";
-import { TRANSLATIONS_ARAB } from "./arab/translations";
-import { TRANSLATIONS_ZH } from "./zh/translations";
-import { TRANSLATIONS_EN } from "./en/translations";
+import TRANSLATIONS_ES from "./es/translation.json";
+import TRANSLATIONS_ARAB from "./arab/translation.json";
+import TRANSLATIONS_ZH from "./zh/translation.json";
+import TRANSLATIONS_EN from "./en/translation.json";
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    returnEmptyString: false,
     resources: {
       es: {
         translation: TRANSLATIONS_ES

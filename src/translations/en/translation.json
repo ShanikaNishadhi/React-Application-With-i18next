@@ -1,0 +1,8 @@
+{
+  "welcome": "",
+  "date_format_one": "{{date, YYYY-MM-DD}}",
+  "keyWithCount": "Anne has bought {{count}} book",
+  "keyWithCount_plural": "Anne has bought {{count}} books",
+  "date_format_two": "{{date, DD-MM-YYYY}}",
+  "number_format": "There are {{number, ','}} books in the shop."
+}

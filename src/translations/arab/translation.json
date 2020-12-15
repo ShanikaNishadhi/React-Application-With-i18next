@@ -1,0 +1,8 @@
+{
+  "welcome": "مرحبًا بكم في البرنامج التعليمي",
+  "date_format_one": "{{-date, YYYY/MM/DD}}",
+  "keyWithCount": "اشترت آن{{count}} كتاب",
+  "keyWithCount_plural": "اشترت آن {{count}} الكتب",
+  "date_format_two": "{{date, DD-MM-YYYY}}",
+  "number_format": "يوجد {{number, ','}} كتاب في المحل"
+}
